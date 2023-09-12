@@ -29,5 +29,8 @@ export default function subtract(x, y) {
 //Lesson Twenty Four - Import a Default Export
 //Input
 /*
+import subtract from "./math_functions.js";
+// Only change code above this line
 
+subtract(7,4);
 */
