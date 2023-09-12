@@ -67,4 +67,136 @@ cc(2); cc(3); cc(7); cc('K'); cc('A');
 //Lesson Eighty Three = Build JavaScript Objects
 //Input
 /*
+const myDog = {
+  // Only change code below this line
+"name": "Sammy",
+"legs": 4,
+"tails": 1,
+"friends": [8],
+
+  // Only change code above this line
+};
+console.log(myDog);
+  // Only change code below this line
 */
+
+//Lesson Eighty Four - Accessing Object Properties with Dot Notation
+//Input
+/*
+// Setup
+const testObj = {
+  "hat": "ballcap",
+  "shirt": "jersey",
+  "shoes": "cleats"
+};
+
+// Only change code below this line
+const hatValue = testObj.hat;      // Change this line
+const shirtValue = testObj.shirt;    // Change this line
+console.log(shirtValue);
+*/
+
+
+//Lesson Eighty Five - Accessing Object Properties with Bracket Notation
+//Input
+/*
+// Setup
+const testObj = {
+  "an entree": "hamburger",
+  "my side": "veggies",
+  "the drink": "water"
+};
+
+// Only change code below this line
+const entreeValue = testObj["an entree"];   // Change this line
+const drinkValue = testObj["the drink"];    // Change this line
+console.log(drinkValue);
+*/
+
+//Lesson Eighty Six - Accessing Object Properties with Variables
+//Input
+/*
+// Setup
+const testObj = {
+  12: "Namath",
+  16: "Montana",
+  19: "Unitas"
+};
+
+// Only change code below this line
+const playerNumber = 16;  // Change this line
+const player = testObj[playerNumber];   // Change this line
+console.log(player);
+*/
+
+//Lesson Eighty Seven - Updating Object Properties
+//Input
+/*
+// Setup
+const myDog = {
+  "name": "Coder",
+  "legs": 4,
+  "tails": 1,
+  "friends": ["freeCodeCamp Campers"]
+};
+
+// Only change code below this line
+myDog.name = "Happy Coder";
+console.log(myDog);
+*/
+
+//Lesson Eighty Eight - Add New Properties to a JavaScript Object
+//Input
+/*
+const myDog = {
+  "name": "Happy Coder",
+  "legs": 4,
+  "tails": 1,
+  "friends": ["freeCodeCamp Campers"]
+};
+myDog.bark = "woof";
+console.log(myDog);
+*/
+
+//Lesson Eighty Nine - Delete Properties from a JavaScript Object
+//Input
+/*
+// Setup
+const myDog = {
+  "name": "Happy Coder",
+  "legs": 4,
+  "tails": 1,
+  "friends": ["freeCodeCamp Campers"],
+  "bark": "woof"
+};
+
+// Only change code below this line
+delete myDog.tails;
+console.log(myDog);
+*/
+
+//Lesson Ninety - Using Objects for Lookups
+//Input
+/*
+// Setup
+function phoneticLookup(val) {
+  let result = "";
+
+  // Only change code below this line
+  const lookup = {
+    "alpha": "Adams",
+    "bravo": "Boston",
+    "charlie": "Chicago",
+    "delta": "Denver",
+    "echo": "Easy",
+    "foxtrot": "Frank"
+  }
+result = lookup[val];
+
+  // Only change code above this line
+  return result;
+}
+
+console.log(phoneticLookup("charlie"));
+*/
+
